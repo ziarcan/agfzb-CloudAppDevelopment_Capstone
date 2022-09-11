@@ -1,11 +1,11 @@
   applications:
-  - name: djangoapp
+  - name: ziarcan-djangoapp
     routes:
-      - route: $HOST.$DOMAIN
+      - route: ziarcan.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: ziarcan-djangoapp-nginx
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: ziarcan.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
