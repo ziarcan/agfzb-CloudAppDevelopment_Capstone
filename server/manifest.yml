@@ -1,11 +1,11 @@
   applications:
-  - name: ziarcan11-djangoapp
+  - name: ziarcan11
     routes:
-      - route: ziarcan11-djangoapp.mybluemix.net
+      - route: ziarcan11.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: ziarcan11-djangoapp-nginx
+  - name: ziarcan11-nginx
     routes:
-      - route: ziarcan11-djangoapp.mybluemix.net/static
+      - route: ziarcan11.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack

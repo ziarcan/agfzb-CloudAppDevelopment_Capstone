@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["localhost", "ziarcan11-djangoapp.mybluemix.net"]
+ALLOWED_HOSTS = ["localhost", "ziarcan11.mybluemix.net"]
 
 
 # Application definition
