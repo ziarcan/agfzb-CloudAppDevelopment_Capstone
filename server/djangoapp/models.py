@@ -34,9 +34,9 @@ class CarModel(models.Model):
     SUV = 'SUV'
     WAGON = 'WAGON'
     TYPES = [
-        SEDAN,
-        SUV,
-        WAGON,
+        (SEDAN, 'Sedan'),
+        (SUV, 'SUV'),
+        (WAGON, 'Wagon')
     ]
     type = models.CharField(
         null=False,
